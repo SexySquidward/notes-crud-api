@@ -21,7 +21,7 @@ phases:
       - serverless package --package my-artifact --stage dev
 artifacts:
   files:
-    - my-artifact/*
+    - ../my-artifact/*
   name: MyProjectArtifacts
 cache:
   paths:
